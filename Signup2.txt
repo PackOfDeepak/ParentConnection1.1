@@ -1,0 +1,55 @@
+<Text style={styles.text}>First Name</Text>
+<TextInput
+style={styles.textinput}
+placeholder="First Name"
+onChangeText={(text)=>{
+    this.setState({
+      firstName: text
+    })
+    
+ }}
+/>
+<Text style={styles.text}>Last Name</Text>
+<TextInput
+style={styles.textinput}
+placeholder="Last Name"
+onChangeText={(text)=>{
+    this.setState({
+      lastName: text
+    })
+    
+}}
+/>
+<Text style={styles.text}>Country</Text>
+<TextInput
+style={styles.textinput}
+placeholder="U.S.A, India, Canada, etc."
+onChangeText={(text)=>{
+    this.setState({
+      country: text
+    })
+    
+}}
+/>
+<Text style={styles.text}>State</Text>
+<TextInput
+style={styles.textinput}
+placeholder="Alabama, Gujurat, Saskatchewan, etc."
+onChangeText={(text)=>{
+    this.setState({
+      state: text
+    })
+    
+}}
+/>
+<Text style={styles.text}>City</Text>
+<TextInput
+style={styles.textinput}
+placeholder="Chicago, Chennai, Toronto, etc."
+onChangeText={(text)=>{
+    this.setState({
+      city: text
+    })
+    
+}}
+/>
